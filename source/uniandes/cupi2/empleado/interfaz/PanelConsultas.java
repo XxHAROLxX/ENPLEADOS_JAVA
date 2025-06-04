@@ -108,7 +108,7 @@ public class PanelConsultas extends JPanel implements ActionListener
     {
         principal = pPrincipal;
         setLayout( new BorderLayout( ) );
-        setBorder( new CompoundBorder( new EmptyBorder( 0, 0, -5, 0 ), new TitledBorder( "Cálculos" ) ) );
+        setBorder( new CompoundBorder( new EmptyBorder( 0, 0, -3, 0 ), new TitledBorder( "Cálculos" ) ) );
 
         btnEdad = new JButton( );
         btnEdad.setText( "Calcular edad" );
